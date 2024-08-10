@@ -1,7 +1,7 @@
 [![MasterHead](https://domain.me/wp-content/uploads/2019/06/Artboard-4-1-1024x505.jpg)]
 <h1 align="center">Hi 👋, I'm Pankaj Roy</h1>
 <h3 align="center">A passionate backend developer from Bangladesh</h3>
-<img align="right" alt="Coding" height="400" width="480" src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/coding-freak.gif" >
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pankaj231123&label=Profile%20views&color=0e75b6&style=flat" alt="pankaj231123" /> </p>
 
