@@ -1,4 +1,4 @@
-[![MasterHead](https://domain.me/wp-content/uploads/2019/06/Artboard-4-1-1024x505.jpg)]
+
 <h1 align="center">Hi 👋, I'm Pankaj Roy</h1>
 <h3 align="center">A passionate backend developer from Bangladesh</h3>
 
