@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **track back.**
 
-- 🌱 I’m currently learning **Node.js and Express.js**
+- 🌱 I’m currently learning **Node.js, Express.js and Nest.js**
 
 - 👯 I’m looking to collaborate on **backend projects.**
 
