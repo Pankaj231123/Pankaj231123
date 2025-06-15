@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Pankaj Roy</h1>
 <h3 align="center">A passionate backend developer from Bangladesh</h3>
 
-- 🔭 I’m currently working on **track back.**
+- 🔭 I’m currently trying to make an **personal tech-startup.**
 
-- 🌱 I’m currently learning **Node.js, Express.js and Nest.js**
+- 🌱 I’m currently learning **Node.js, Express.js, Next.js and Nest.js.**
 
 - 👯 I’m looking to collaborate on **backend projects.**
 
