@@ -2,7 +2,7 @@
 <h3 align="center">Backend Software Engineer from Bangladesh 🇧🇩</h3>
 
 <p align="center">
-Backend-focused Software Engineer experienced in building scalable APIs, real-time systems, and optimized database queries using Go and Node.js.
+Backend-focused engineer experienced in building scalable APIs, real-time systems, and optimized backend services using Go and Node.js.
 </p>
 
 ---
@@ -10,75 +10,37 @@ Backend-focused Software Engineer experienced in building scalable APIs, real-ti
 ## 👨‍💻 About Me
 
 - 🔭 Currently working as **Junior Software Engineer at Software Lighthouse**
-- ⚙️ Backend developer focused on **scalable systems and API performance**
-- 🌱 Currently exploring **System Design & Distributed Backend Architecture**
-- 💬 Ask me about **Go, Node.js, NestJS, REST APIs, Backend Optimization**
-- 📫 Reach me at **amipankaj231@gmail.com**
-- 🌍 Location: **Dhaka, Bangladesh**
+- ⚙️ Backend developer specializing in **Go, Node.js, NestJS**
+- 🧠 Interested in **System Design and Scalable Backend Architecture**
+- 💬 Ask me about **Backend Development, REST APIs, Performance Optimization**
+- 📫 Email: **amipankaj231@gmail.com**
+- 📍 Location: **Dhaka, Bangladesh**
 
 ---
 
-## 💼 Experience
+## 🛠 Skills & Technologies
 
-### Junior Software Engineer — Software Lighthouse  
-📍 Dhaka, Bangladesh | Jul 2025 – Present
+**Backend**
+- Go
+- Node.js
+- NestJS
+- Express.js
+- REST APIs
+- JWT Authentication
+- RBAC
 
-- Improved critical page load time by **40%+** through API optimization
-- Implemented **Server-Sent Events (SSE)** using Go for real-time streaming
-- Diagnosed and resolved **production backend issues**
-- Integrated **Flutter frontend with secure REST APIs**
-- Collaborated with backend and QA teams to ensure production stability
+**Databases**
+- PostgreSQL
+- MySQL
 
----
+**Tools**
+- Git
+- Postman
 
-## 🚀 Featured Projects
-
-### 🏭 Texora360 – Textile Industry Management Platform
-**Tech:** Flutter, Go, PostgreSQL
-
-- Implemented **Server-Sent Events (SSE)** for real-time updates
-- Reduced unnecessary API calls by **40–50%**
-- Optimized product listing API and reduced load time by **60%**
-- Designed advanced filtering and search logic
-
----
-
-### 🦅 CITES – Government Wildlife Trade Management System
-**Tech:** PHP, HTML, JavaScript, CSS
-
-- Developed **role-based workflow features**
-- Implemented **hierarchical approval system**
-- Improved system stability by resolving production bugs
-- Enhanced page performance and user experience
-
----
-
-### 👨‍💼 Arku – Employee Management Application
-**Tech:** Flutter, Firebase
-
-- Reduced initial loading time by **30–40%**
-- Implemented pagination for **40K+ records**
-- Optimized employee listing for **15–20K active users**
-
----
-
----
-
-## 🛠 Languages and Tools
-
-<p align="left">
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" width="40" height="40"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40"/>
-<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="40" height="40"/>
-
-</p>
+**Other**
+- Flutter
+- Data Structures
+- OOP
 
 ---
 
@@ -94,7 +56,7 @@ Backend-focused Software Engineer experienced in building scalable APIs, real-ti
 
 ---
 
-## 🔥 GitHub Streak
+## 🔥 GitHub Activity
 
 <p align="center">
 
@@ -104,7 +66,7 @@ Backend-focused Software Engineer experienced in building scalable APIs, real-ti
 
 ---
 
-## 🤝 Connect with Me
+## 🤝 Connect With Me
 
 <p align="left">
 
@@ -121,7 +83,3 @@ Backend-focused Software Engineer experienced in building scalable APIs, real-ti
 </a>
 
 </p>
-
----
-
-⭐ *I enjoy building scalable backend systems, solving performance problems, and working on production-level software.*
