@@ -62,17 +62,6 @@ Backend-focused Software Engineer experienced in building scalable APIs, real-ti
 
 ---
 
-## 🧠 Research
-
-📄 **MSF-RGBNet: A Lightweight Multi-Stage Fusion Architecture for Deepfake Image Detection**  
-Accepted for publication (2025)
-
-📄 **Thesis: XAI in Medical Imaging – Lung and Colon Cancer Classification**
-
-- Developed **EfficientNet-B3 + CLIP hybrid model**
-- Implemented **Grad-CAM interpretability**
-- Achieved **95%+ validation accuracy**
-
 ---
 
 ## 🛠 Languages and Tools
