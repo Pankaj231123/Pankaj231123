@@ -1,105 +1,38 @@
-<h1 align="center">Hi 👋, I'm Pankaj Roy</h1>
-<h3 align="center">Backend Software Engineer from Bangladesh 🇧🇩</h3>
+# Hi, I'm Pankaj Roy 👋
 
-<p align="center">
-Backend-focused engineer experienced in building scalable APIs, real-time systems, and optimized backend services using Go and Node.js.
-</p>
+Fullstack developer from Bangladesh 🇧🇩, focused on building reliable APIs and web applications.
 
 ---
 
-## 👨‍💻 About Me
+## 🛠 Skills
 
-- 🔭 Currently working as **Junior Software Engineer at Software Lighthouse**
-- ⚙️ Backend developer specializing in **Go, Node.js, NestJS**
-- 🧠 Interested in **System Design and Scalable Backend Architecture**
-- 💬 Ask me about **Backend Development, REST APIs, Performance Optimization**
-- 📫 Email: **amipankaj231@gmail.com**
-- 📍 Location: **Dhaka, Bangladesh**
+**Backend**
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+
+**Frontend & Mobile**
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+
+**Database**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
+**Tools**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 
 ---
-
-## 🛠 Skills & Technologies
-
-<p align="left">
-
-<a href="https://golang.org" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/>
-</a>
-
-<a href="https://nodejs.org" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
-</a>
-
-<a href="https://nestjs.com/" target="_blank">
-<img src="https://cdn.simpleicons.org/nestjs/E0234E" alt="nestjs" width="40" height="40"/>
-</a>
-
-<a href="https://expressjs.com" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="express" width="40" height="40"/>
-</a>
-
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-</a>
-
-<a href="https://www.postgresql.org/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/>
-</a>
-
-<a href="https://www.mysql.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/>
-</a>
-
-<a href="https://flutter.dev" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="flutter" width="40" height="40"/>
-</a>
-
-<a href="https://git-scm.com/" target="_blank">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
-</a>
-
-<a href="https://postman.com" target="_blank">
-<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
-</a>
-
-</p>
 
 ## 📊 GitHub Stats
 
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Pankaj231123&show_icons=true&theme=tokyonight"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pankaj231123&layout=compact&theme=tokyonight"/>
-
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pankaj231123&show_icons=true&hide_border=true&hide_title=true)
 
 ---
 
-## 🔥 GitHub Activity
+## 📫 Contact
 
-<p align="center">
-
-<img src="https://streak-stats.demolab.com/?user=Pankaj231123&theme=tokyonight"/>
-
-</p>
-
----
-
-## 🤝 Connect With Me
-
-<p align="left">
-
-<a href="https://linkedin.com/in/pankaj-roy705" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40"/>
-</a>
-
-<a href="https://fb.com/pankajjrroy" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="30" width="40"/>
-</a>
-
-<a href="https://leetcode.com/pankaj102" target="blank">
-<img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40"/>
-</a>
-
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/pankaj-roy705)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:amipankaj231@gmail.com)
