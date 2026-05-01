@@ -27,8 +27,9 @@ Fullstack developer from Bangladesh 🇧🇩, focused on building reliable APIs 
 
 ## 📊 GitHub Activity
 
-![Profile Views](https://komarev.com/ghpvc/?username=Pankaj231123&color=58a6ff&style=flat&label=Profile+Views)
-![Commits](https://img.shields.io/github/commit-activity/m/Pankaj231123/Pankaj231123?color=3fb950&style=flat&label=Commits+This+Month)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Pankaj231123&query=$.public_repos&label=Public+Repos&color=58a6ff&style=flat)
+![Followers](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Pankaj231123&query=$.followers&label=Followers&color=3fb950&style=flat)
+![Commits](https://img.shields.io/github/commit-activity/m/Pankaj231123/Pankaj231123?color=f0c040&style=flat&label=Commits+This+Month)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Pankaj231123&theme=dark&hide_border=true)
 
