@@ -1,0 +1,135 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs daily at midnight
+  workflow_dispatch:       # allows manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Stats SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: Pankaj231123
+        run: |
+          pip install requests
+
+          python3 << 'EOF'
+          import requests, json, os, datetime
+
+          token = os.environ["GITHUB_TOKEN"]
+          username = os.environ["USERNAME"]
+          headers = {"Authorization": f"Bearer {token}"}
+
+          # Fetch repos
+          repos_res = requests.get(
+            f"https://api.github.com/user/repos?per_page=100&type=owner",
+            headers=headers
+          ).json()
+
+          # Language stats
+          lang_bytes = {}
+          for repo in repos_res:
+            if repo.get("fork"): continue
+            langs = requests.get(repo["languages_url"], headers=headers).json()
+            for lang, b in langs.items():
+              lang_bytes[lang] = lang_bytes.get(lang, 0) + b
+
+          total_bytes = sum(lang_bytes.values()) or 1
+          top_langs = sorted(lang_bytes.items(), key=lambda x: -x[1])[:6]
+
+          # Commit count (last 52 weeks)
+          activity = requests.get(
+            f"https://api.github.com/users/{username}/events?per_page=100",
+            headers=headers
+          ).json()
+          commits = sum(
+            e.get("payload", {}).get("size", 0)
+            for e in activity if e.get("type") == "PushEvent"
+          )
+
+          # Stars & repos
+          total_stars = sum(r.get("stargazers_count", 0) for r in repos_res)
+          total_repos = len([r for r in repos_res if not r.get("fork")])
+
+          # Colors for languages
+          colors = {
+            "Go": "#00ADD8", "Dart": "#0175C2", "JavaScript": "#F7DF1E",
+            "TypeScript": "#3178C6", "Python": "#3572A5", "HTML": "#E34C26",
+            "CSS": "#563D7C", "Shell": "#89E051", "C++": "#F34B7D",
+            "Java": "#B07219"
+          }
+          default_color = "#858585"
+
+          # Build lang bars
+          lang_bars = ""
+          label_texts = ""
+          bar_x = 0
+          bar_width = 460
+          for i, (lang, b) in enumerate(top_langs):
+            pct = b / total_bytes
+            w = round(pct * bar_width)
+            col = colors.get(lang, default_color)
+            lang_bars += f'<rect x="{bar_x}" y="0" width="{w}" height="10" rx="3" fill="{col}"/>'
+            row = i // 2
+            col_offset = 0 if i % 2 == 0 else 240
+            y = 30 + row * 22
+            label_texts += f'''
+              <circle cx="{10 + col_offset}" cy="{y}" r="5" fill="{col}"/>
+              <text x="{22 + col_offset}" y="{y + 4}" font-size="12" fill="#c9d1d9">{lang} <tspan fill="#8b949e">{pct*100:.1f}%</tspan></text>
+            '''
+
+          label_height = ((len(top_langs) + 1) // 2) * 22 + 40
+          svg_height = 180 + label_height
+          updated = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
+          svg = f'''<svg width="500" height="{svg_height}" xmlns="http://www.w3.org/2000/svg">
+            <rect width="500" height="{svg_height}" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+            <!-- Header -->
+            <text x="20" y="35" font-size="16" font-weight="bold" fill="#c9d1d9" font-family="monospace">📊 Pankaj's GitHub Stats</text>
+            <line x1="20" y1="45" x2="480" y2="45" stroke="#30363d" stroke-width="1"/>
+
+            <!-- Stats row -->
+            <text x="20" y="75" font-size="13" fill="#8b949e" font-family="monospace">Repos</text>
+            <text x="20" y="95" font-size="22" font-weight="bold" fill="#58a6ff" font-family="monospace">{total_repos}</text>
+
+            <text x="180" y="75" font-size="13" fill="#8b949e" font-family="monospace">Stars</text>
+            <text x="180" y="95" font-size="22" font-weight="bold" fill="#f0c040" font-family="monospace">{total_stars}</text>
+
+            <text x="340" y="75" font-size="13" fill="#8b949e" font-family="monospace">Recent Commits</text>
+            <text x="340" y="95" font-size="22" font-weight="bold" fill="#3fb950" font-family="monospace">{commits}</text>
+
+            <!-- Languages title -->
+            <text x="20" y="130" font-size="13" fill="#8b949e" font-family="monospace">Top Languages</text>
+
+            <!-- Language bar -->
+            <g transform="translate(20, 140)">{lang_bars}</g>
+
+            <!-- Language labels -->
+            <g transform="translate(20, 150)">{label_texts}</g>
+
+            <!-- Footer -->
+            <text x="20" y="{svg_height - 10}" font-size="10" fill="#484f58" font-family="monospace">Updated: {updated}</text>
+          </svg>'''
+
+          with open("stats.svg", "w") as f:
+            f.write(svg)
+
+          print("stats.svg generated successfully")
+          EOF
+
+      - name: Commit stats.svg
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add stats.svg
+          git diff --cached --quiet || git commit -m "chore: update github stats [skip ci]"
+          git push
