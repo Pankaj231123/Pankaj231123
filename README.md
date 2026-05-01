@@ -27,8 +27,7 @@ Fullstack developer from Bangladesh 🇧🇩, focused on building reliable APIs 
 
 ## 📊 GitHub Stats
 
-![GitHub Stats]
-![GitHub Stats](./stats.svg)
+![GitHub Stats](https://readme-stats.clckblog.space/api?username=Pankaj231123&show_icons=true&theme=dark)
 
 ---
 
