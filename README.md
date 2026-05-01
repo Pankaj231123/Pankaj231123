@@ -22,19 +22,12 @@ Fullstack developer from Bangladesh 🇧🇩, focused on building reliable APIs 
 **Tools**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black)
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Pankaj231123&show_icons=true&hide_border=true&hide_title=true&theme=dark)
-
----
-
-## 🧩 LeetCode Stats
-
-[![LeetCode Stats](https://leetcard.jacoblin.cool/Pankaj102?theme=dark&font=Nunito&ext=heatmap)](https://leetcode.com/u/Pankaj102/)
+![GitHub Stats](https://readme-stats.clckblog.space/api?username=Pankaj231123&show_icons=true&theme=dark)
 
 ---
 
