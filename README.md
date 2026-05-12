@@ -2,8 +2,9 @@
 
 Junior Software Engineer at **Software Lighthouse** (Dhaka, Bangladesh 🇧🇩).
 I build production Go backends and Flutter apps — currently shipping a textile manufacturing ERP.
-
 On the side, I'm exploring computer vision and PyTorch, working toward a master's in CS.
+
+🌐 **[View my portfolio →](https://Pankaj231123.github.io/)**
 
 ---
 
@@ -43,6 +44,6 @@ On the side, I'm exploring computer vision and PyTorch, working toward a master'
 
 ## 📫 Contact
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=githubpages&logoColor=white)](https://Pankaj231123.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/pankaj-roy705)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:amipankaj231@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black)](https://leetcode.com/u/Pankaj102/)
