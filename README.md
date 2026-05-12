@@ -12,7 +12,7 @@ On the side, I'm exploring computer vision and PyTorch, working toward a master'
 - Building production Go services with **Gin + GORM + PostgreSQL**
 - Shipping **Flutter** apps for web and mobile — SSE-driven dashboards, offline-first sync
 - Studying **PyTorch** and computer vision (targeting a Vision Transformer paper reproduction)
-- Preparing for a master's in CS (Germany / France)
+- Preparing for a master's in CS.
 
 ---
 
