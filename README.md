@@ -1,35 +1,41 @@
 # Hi, I'm Pankaj Roy 👋
-Fullstack developer from Bangladesh 🇧🇩, focused on building reliable APIs and web applications.
+
+Junior Software Engineer at **Software Lighthouse** (Dhaka, Bangladesh 🇧🇩).
+I build production Go backends and Flutter apps — currently shipping a textile manufacturing ERP.
+
+On the side, I'm exploring computer vision and PyTorch, working toward a master's in CS.
 
 ---
 
-## 🛠 Skills
+## 🔭 Currently
 
-**Backend**
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-
-**Frontend & Mobile**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-
-**Database**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-
-**Tools**
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+- Building production Go services with **Gin + GORM + PostgreSQL**
+- Shipping **Flutter** apps for web and mobile — SSE-driven dashboards, offline-first sync
+- Studying **PyTorch** and computer vision (targeting a Vision Transformer paper reproduction)
+- Preparing for a master's in CS (Germany / France)
 
 ---
 
-## 📊 GitHub Activity
+## 🛠 Stack
 
-![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Pankaj231123&query=$.public_repos&label=Public+Repos&color=58a6ff&style=flat)
-![Followers](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Pankaj231123&query=$.followers&label=Followers&color=3fb950&style=flat)
-![Commits](https://img.shields.io/github/commit-activity/m/Pankaj231123/Pankaj231123?color=f0c040&style=flat&label=Commits+This+Month)
+| Area | Tools |
+|------|-------|
+| **Backend** | Go (Gin, GORM), Node.js, NestJS |
+| **Mobile & Frontend** | Flutter / Dart, React, TypeScript |
+| **Database** | PostgreSQL, MySQL |
+| **Learning** | PyTorch, Computer Vision |
+
+---
+
+## 📌 Featured Projects
+
+- **[go-jwt-auth-boilerplate](https://github.com/Pankaj231123/go-jwt-auth-boilerplate)** — Production-ready JWT auth in Go: access/refresh tokens, rate limiting, clean architecture.
+- **[Feedback_Management_System](https://github.com/Pankaj231123/Feedback_Management_System)** — AI-powered feedback classifier using LangChain, Gemini, Node.js, and React.
+- **[job-application-tracker](https://github.com/Pankaj231123/job-application-tracker)** — Full-stack job tracker (Go + Gin + PostgreSQL backend, React frontend).
+
+---
+
+## 📊 GitHub Streak
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Pankaj231123&theme=dark&hide_border=true)
 
